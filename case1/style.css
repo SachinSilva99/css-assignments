@@ -1,0 +1,148 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.main {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+.primary-box-1 {
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 50vw;
+    height: 50vh;
+    background-color: crimson;
+}
+
+.primary-box-2 {
+    top: 0;
+    left: 50%;
+    position: absolute;
+    width: 50vw;
+    height: 50vh;
+    background-color: green;
+}
+.primary-box-3 {
+    top: 50%;
+    left: 0;
+    position: absolute;
+    width: 50vw;
+    height: 50vh;
+    background-color: goldenrod;
+}
+.primary-box-4 {
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    width: 50vw;
+    height: 50vh;
+    background-color: deeppink;
+}
+.box {
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    position: absolute;
+    width: 15vw;
+    height: 15vw;
+    background-color: azure;
+}
+.box-square {
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    position: absolute;
+    width: 8vw;
+    height: 8vw;
+    background-color: red;
+}
+.box-circle {
+    border-radius: 100%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    position: absolute;
+    width: 8vw;
+    height: 8vw;
+    background-color: red;
+}
+.primary-box-1 > .box {
+    border-radius: 100%;
+}
+.primary-box-2 > .box {
+    border-radius: 100%;
+}
+.primary-box-3 > .box {
+    border-radius: 100%;
+}
+.primary-box-4 > .box {
+    border-radius: 100%;
+}
+.first-half {
+    position: absolute;
+    width: 15vw;
+    height: 15vw;
+    background-color: azure;
+    border-bottom-right-radius: 100%;
+}
+.first-mid-half {
+    width: 15vw;
+    height: 15vw;
+    background-color: azure;
+    border-radius: 100%;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 100%;
+    margin: auto;
+    position: absolute;
+}
+.first-end-half {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 15vw;
+    height: 15vw;
+    background-color: azure;
+    border-bottom-left-radius: 100%;
+}
+.second-half {
+    position: absolute;
+    bottom: 0;
+    width: 15vw;
+    height: 15vw;
+    background-color: azure;
+    border-top-right-radius: 100%;
+}
+.second-mid-half {
+    width: 15vw;
+    height: 15vw;
+    background-color: azure;
+    border-radius: 100%;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    top: 100%;
+    margin: auto;
+    position: absolute;
+}
+.second-end-half {
+    position: absolute;
+
+    bottom: 0;
+    right: 0;
+    width: 15vw;
+    height: 15vw;
+    background-color: azure;
+    border-top-left-radius: 100%;
+}
